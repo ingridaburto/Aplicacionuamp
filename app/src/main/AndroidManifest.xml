@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplicacionuamp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Aplicacionuamp">
+        
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Actividad7"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad6"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad5"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad4"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad3"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+
+    </application>
+
+</manifest>
