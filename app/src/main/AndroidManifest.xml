@@ -8,11 +8,109 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Aplicacionuamp">
-        
+        <activity
+            android:name=".Actividad40"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad39"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad38"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad37"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad36"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad35"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad34"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad33"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad31"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad32"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad30"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad29"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad28"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad27"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad26"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad25"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad24"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad23"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad22"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad21"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad20"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad19"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad17"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad18"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad16"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad15"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad14"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad13"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad12"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad11"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad10"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad9"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad8"
+            android:exported="false" />
         <activity
             android:name=".SplashActivity"
-            android:theme="@style/SplashTheme"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -39,9 +137,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
-
+            android:exported="true" />
     </application>
 
 </manifest>

@@ -16,4 +16,13 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun actividad7(view: View){
+        val intent = Intent(this, Actividad7()::class.java)
+        startActivity(intent)
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        onDestroy()
+    }
 }

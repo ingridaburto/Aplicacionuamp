@@ -195,6 +195,7 @@
         android:id="@+id/button3"
         android:layout_width="184dp"
         android:layout_height="39dp"
+        android:backgroundTint="@color/black"
         android:onClick="actividad3"
         android:text="Regresar"
         app:layout_constraintBottom_toBottomOf="parent"
